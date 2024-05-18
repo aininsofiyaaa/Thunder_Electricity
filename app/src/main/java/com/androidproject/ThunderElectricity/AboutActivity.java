@@ -65,7 +65,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // GitHub repository URL
-                String githubUrl = "https://github.com/hamza372";
+                String githubUrl = "https://github.com/aininsofiyaaa/Thunder_Electricity";
 
                 // Create intent to open the GitHub URL
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
