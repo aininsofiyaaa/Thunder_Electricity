@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/venice_blue_darker">
+
+    <ImageView
+        android:id="@+id/backIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:src="@drawable/ic_back_white" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:gravity="center"
+        android:text="  ThunderElectricity"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/shareIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:paddingEnd="16dp"
+        android:src="@android:drawable/ic_menu_share" />
+
+    <ImageView
+        android:id="@+id/infoIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:paddingEnd="16dp"
+        android:src="@android:drawable/ic_menu_info_details" />
+
+</androidx.appcompat.widget.Toolbar>
